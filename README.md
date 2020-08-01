@@ -12,15 +12,19 @@ And only after this repo addon is installed, can you then install **other** addo
 # Layout of the repo files
 Otherwise arrange the hierachy to exactly match what the XML-file inside your repo-zip belongs to. E.g.:
 ```
-(( github.com/[yourName]/[repoName] ))
+<<github.com/[yourName]/[repoName]>>   <--- or whatever web host you want
 │
-├── addons.xml
+├── addons.xml                         <--- list of each addon's <addon>...</addon> blob
+│                                             (from: [addon].zip > [addon] > addon.xml)
+|                                             (note: this one is 'addonS', plural!!)
+|
+├── addons.xml.md5                     <--- literally any text inside
+|                                             (if contents change, Kodi refreshes repo)
 │
-├── addons.xml.md5           <--- literally any text inside
+├── script.realdebrid                  <--- folder matching an addon's name (w/o version)
+│   └── script.realdebrid-0.5.zip      <--- an addon your repo provides 
 │
-├── script.realdebrid        <--- an addon you wanna install
-│   └── script.realdebrid-0.5.zip
-│
-└── [addonType].[addonName]  <--- not *your* addon!!
-    └── [addonType].[addonName]-0.0.0.zip
+└── [addonType].[addonName]            <--- another addon (not your repo's addon!!)
+    │
+    └── [addonType].[addonName]-[version].zip
 ```
