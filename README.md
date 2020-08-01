@@ -14,7 +14,7 @@ Otherwise arrange the hierachy to exactly match what the XML-file inside your re
 ```
 <<github.com/[yourName]/[repoName]>>   <--- or whatever web host you want
 │
-├── addons.xml                         <--- list of each addon's <addon>...</addon>
+├── addons.xml                         <--- list of each addon's <addon>...</addon> blob
 │                                             (from: [addon].zip > [addon] > addon.xml)
 |                                             (note: this one is 'addonS', plural!!)
 |
