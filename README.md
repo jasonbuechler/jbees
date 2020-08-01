@@ -16,7 +16,7 @@ Otherwise arrange the hierachy to exactly match what the XML-file inside your re
 │
 ├── addons.xml                         <--- list of each addon's <addon>...</addon>
 │                                             (from: [addon].zip > [addon] > addon.xml)
-|                                             (note: this one has an 's' at the end!!)
+|                                             (note: this one is 'addonS', plural!!)
 |
 ├── addons.xml.md5                     <--- literally any text inside
 |                                             (if contents change, Kodi refreshes repo)
