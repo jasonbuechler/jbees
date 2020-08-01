@@ -22,5 +22,5 @@ Otherwise arrange the hierachy to exactly match what the XML-file inside your re
 │   └── script.realdebrid-0.5.zip
 │
 └── [addonType].[addonName]  <--- not *your* addon!!
-    └── [addonType].[addonName]-0.0.0.zip
+    └── [addonType].[addonName]-[version].zip
 ```
