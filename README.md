@@ -23,7 +23,7 @@ Otherwise arrange the hierachy to exactly match what the XML-file inside your re
 ├── script.realdebrid                  <--- folder matching an addon's name (w/o version)
 │   └── script.realdebrid-0.5.zip      <--- an addon your repo provides 
 │
-└── [addonType].[addonName]            <--- not *your* addon!!
+└── [addonType].[addonName]            <--- another addon (not your repo's addon!!)
     │
     └── [addonType].[addonName]-[version].zip
 ```
