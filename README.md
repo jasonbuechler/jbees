@@ -28,3 +28,5 @@ Otherwise arrange the hierachy to exactly match what the XML-file inside your re
     │
     └── [addonType].[addonName]-[version].zip
 ```
+
+![repoProject.png](repoProject.png)
